@@ -1,0 +1,28 @@
+{
+  "name": "voodoo/router",
+  "description": "Router configuration package",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Schröter",
+      "email": "reabmax@googlemail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Voodoo\\Router\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Voodoo\\Router\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "league/route": "^4.3"
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0"
+  }
+}
